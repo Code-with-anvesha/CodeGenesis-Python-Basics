@@ -7,11 +7,11 @@ class Ghost:
 
 class FriendlyGhost(Ghost):
     def scare(self):
-        return f"{self.name} says: Wanna be my friend? 👻"
+        return f"{self.name} says: Wanna be my friend? "
 
 class EvilGhost(Ghost):
     def scare(self):
-        return f"{self.name} whispers: I'm right behind you... 😈"
+        return f"{self.name} whispers: I'm right behind you... "
 
 #  Ghost Objects
 casper = FriendlyGhost("Casper")
