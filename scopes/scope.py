@@ -1,14 +1,14 @@
 username = "Codewithanvesha"
 
 def func():
-    # username = "chai"
+    
     print(username)
 
 print(username)
 func()
 
 
-x = 99 
+x = 89
 # def func2(y):
 #     z = x + y
 #     return z
@@ -26,7 +26,7 @@ x = 99
 
 
 def f1():
-    x = 88
+    x = 86
     def f2():
         print(x)
     return f2
