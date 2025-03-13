@@ -13,7 +13,6 @@ with open('anvesha_data.txt', 'w') as file:
     
     file.write('Anvesha Sharma ka custom data')
 
-    
 with open('anvesha_data.txt', 'a') as file:
     file.write('\nIn a world full of voices, she wonders if anyone truly listens.!')
 
