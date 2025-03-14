@@ -1,19 +1,19 @@
-score = 180
-if score >= 100:
+score = 185
+
+if score >= 101:
     print("Please verify your grade again")
-    
-      exit()
+    exit()
 
-        if score >= 90:
-            grade = "A"
-            elif score >= 80:
-                grade = "B"
-                elif score >= 70:
-                    grade = "c"
-                    elif score >= 60:
-                        grade = "D"
-                        else:
-                            grade = "F"
+if score >= 90:
+   grade = "A"
+elif score >= 80:
+     grade = "B"
+elif score >= 70:
+    grade = "c"
+elif score >= 60:
+    grade = "D"
+else:
+    grade = "F"
 
-                            print("Grade:", grade)
+print("Grade:", grade)
 
