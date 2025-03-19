@@ -10,6 +10,6 @@ print(person["name"])
 # output Anvesha
 
 # Loop through dictionary
-for key, value in
-person.items(): # type: ignore
-print(f"{key}: {value}")
+  for key, value in
+        person.items(): # type: ignore
+       print(f"{key}: {value}")
