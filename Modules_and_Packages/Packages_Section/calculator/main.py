@@ -1,7 +1,7 @@
 from packages.calculator import add, subtract, multiply, divide
 
 def main():
-    print("📌 Simple Calculator (Student-Friendly)")
+    print(" Simple Calculator (Student-Friendly)")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
