@@ -16,7 +16,7 @@ def save_events(events):
         json.dump(events, file, indent=4)
 
 def add_event(date, event):
-    #Adds a new event
+    
     events = load_events()
     if date in events:
         events[date].append(event)
