@@ -7,7 +7,7 @@ if pet_type == "dog 🐶":
         food = "Puppy Food"
     else:
         food = "Adult Dog Food"
-elif pet_type == "cat":
+elif pet_type == "😺":
     if age <= 2:
         food = "Kitten Food"
     elif age <= 5:
