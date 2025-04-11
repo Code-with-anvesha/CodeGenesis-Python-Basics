@@ -35,5 +35,5 @@ def view_events():
             print(f"{date}: {', '.join(event_list)}")
 
 if __name__ == "__main__":
-    add_event("2025-02-03", "Friend's Birthday")
+    add_event("2025-02-03", "Friend's 🎂")
     view_events()
