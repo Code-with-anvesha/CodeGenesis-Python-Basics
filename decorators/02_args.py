@@ -13,7 +13,7 @@ def hello():
     print("hello")
 
 @debug
-def greet(name, greeting="Hello"):
+def greet(name, greeting="👋"):
     print(f"{greeting}, {name}")
 
 hello()
